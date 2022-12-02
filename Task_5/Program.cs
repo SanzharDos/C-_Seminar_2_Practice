@@ -16,9 +16,13 @@ if (div == 1 && y != 11)
 {
     Console.WriteLine($"В комнате {num} программист");
 }
-else if (div >= 2 && div <= 4 && y < 4)
+// else if (y > 14 && div == 2 || div == 3 || div == 4)
+else if (y > 20)
 {
-    Console.WriteLine($"В комнате {num} программиста");
+    if (div == 2 || div == 3 || div == 4)
+    {
+        Console.WriteLine($"В комнате {num} программиста");
+    }
 }
 else
 {
