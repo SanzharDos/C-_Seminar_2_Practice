@@ -26,3 +26,29 @@ while (i < 100)
     }
     i++;
 }
+
+// Пытался попробовать написать программу через функцию, не хватает понимания 
+// 
+// void FillArray(int[] collection)
+// {
+//     int index = 0;
+//     while (index < 100)
+//     {
+//         collection[index] = index + 1;
+//         index++;
+//     }
+// }
+// void PrintArray(int[] col)
+// {
+//     int position = 0;
+//     while (position < 100)
+//     {
+//         Console.Write(col[position]);
+//         position++;
+//     }
+// }
+// int[] array = new int[100];
+
+// FillArray(array);
+// PrintArray(array);
+// Console.Write($"{array} ");
